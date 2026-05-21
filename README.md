@@ -2,7 +2,7 @@
 Esse trabalho foi feito para conclusão de uma das atividades passadas pelo professor Julio César, professor da disciplina de Banco de Dados na FGV-EMAp.
 
 Alunos:
-- Angel Yeshua
+- Angel Jhesua
 - Samuel Uchoa
 - Lisânia Soares
 - Davi Dressler
@@ -63,7 +63,7 @@ A partir de uma lista de suspeitos vamos afunilar um pouco mais, vamos verificar
 
 Esse filtro provavelmente vai nos retornar uma lista menor de suspeitos mais relevantes.
 
-Você tem suspeitos e os dados relevantes para a investigação, conclua o trabalho agente. Boa sorte.
+Você tem suspeitos e os dados relevantes para a investigação, conclua o trabalho, agente. Boa sorte.
 
 ---
 
