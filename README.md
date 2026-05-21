@@ -9,6 +9,10 @@ Alunos:
 - Joana Fontes
 - Gabriel Bittencourt
 
+# Acesso ao site interativo de reolução do mistério
+
+https://jhe-sua.github.io/bd-mistery-sql/
+
 # 🔍 Mistério SQL — Operação Fantasma da Previdência
 
 > **Polícia Federal do Brasil — DICOR/RJ — Confidencial**  
