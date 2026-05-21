@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery SQL</title>
+
+    <link rel="icon" type="image/png" href="img/detetive.png">
+
+
+    <!-- CSS externo -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Bibliotecas -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/sql/sql.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.2/sql-wasm.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Investigadores SQL comecem aqui</h1>
+        <p>
+            <b>Roberto</b>, um multimilionário, faleceu no dia <b>25 de maio de 2025</b>.
+            Pouco tempo após o falecimento, os herdeiros notaram movimentações estranhas na
+            conta do falecido. O banco não havia sido notificado do óbito a tempo, e alguém
+            aproveitou a janela para realizar transferências de valores altíssimos.<br><br>
+
+            O principal suspeito? Alguém de dentro da própria mansão.
+        </p>
+
+
+        <h1> O resto esta nas suas mãos </h1>
+        <p>
+            <a id="show-schema">clique aqui</a> para exibir o diagrama do esquema.
+        </p>
+        <div id="experienced-schema">
+                <img
+                    src="https://www.sqlitetutorial.net/wp-content/uploads/2015/11/sqlite-sample-database-color.jpg"
+                    alt="schema"
+                >
+        </div>
+        
+        <div class="sql-box">
+            <textarea class="sql-editor">SELECT * FROM sqlite_master</textarea>
+
+            <div>
+                <button type="button" class="run-btn" disabled>Run ⇩</button>
+                <button type="button" class="clr-out"> Clear Output </button>
+                <button type="button" class="reset-btn">Reset</button>
+            </div>
+
+            <div class="result-table"></div>
+        </div>
+
+        <h1>Confira sua solução</h1>
+
+        <div class="sql-box">
+            <textarea class="sql-editor">INSERT INTO solution VALUES (1, 'Insert the name of the person you found here');
+SELECT value FROM solution;</textarea>
+            <div>
+                <button type="button" class="run-btn" disabled>Run ⇩</button>
+                <button type="button" class="clr-out"> Clear Output </button>
+                <button type="button" class="reset-btn">Reset</button>
+            </div>
+
+            <div class="result-table"></div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+    
+</html>
